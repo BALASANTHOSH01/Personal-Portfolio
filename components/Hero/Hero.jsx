@@ -18,9 +18,9 @@ const Hero = () => {
 
         <div className=" flex flex-col items-center md:mt-[4%] justify-center">
           <div className="text-[80px] md:text-[37px] text-white text-center">
-            <div className=" flex md:flex-col md:items-center items-start gap-3 justify-center z-40 ">
+            <div className=" flex md:flex-col md:items-center items-start gap-4 justify-center z-40 mb-[2%]">
               {/* <StarIcon className="absolute z-0 text-gray-800 text-[40px] right-0"/> */}
-              <p className=" md:text-[50px]">I'm a {" "}</p>
+              <p className=" md:text-[60px]">I'm a {" "}</p>
               <span className="text-jade-500">
                 <TypeAnimation
                   preRenderFirstString={true}
@@ -39,10 +39,10 @@ const Hero = () => {
               </span>
              
             </div>
-            <p className=" md:text-[50px]">who codes for growth</p>
+            <p className=" md:text-[60px]">who codes for growth</p>
           </div>
 
-          <div className=" w-[50%] md:mt-[4%] md:w-[98%] text-[20px] text-center text-gray-400">
+          <div className=" w-[50%] md:mt-[7%] md:w-[98%] text-[20px] text-center text-gray-400">
             <p>
             I'm a trailblazing software developer with a passion for innovation and proven real-world success. Ready to channel my skills and drive to elevate a dynamic company and achieve remarkable results.
             </p>
