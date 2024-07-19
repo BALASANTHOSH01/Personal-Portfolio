@@ -43,8 +43,12 @@ const Hero = () => {
           </div>
 
           <div className=" w-[50%] md:mt-[7%] md:w-[98%] text-[20px] text-center text-gray-400">
-            <p>
+            <p className=" md:hidden">
             I'm a trailblazing software developer with a passion for innovation and proven real-world success. Ready to channel my skills and drive to elevate a dynamic company and achieve remarkable results.
+            </p>
+
+            <p className=" hidden md:block">
+            I'm a trailblazing software developer, driven by a passion for innovation and a track record of real-world project success. I'm eager to harness my skills and experience to catapult a forward-thinking company to new heights and drive its success with unstoppable energy and creativity.
             </p>
           </div>
         </div>
