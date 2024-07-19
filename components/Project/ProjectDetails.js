@@ -1,4 +1,4 @@
-import {Foodspot,Greenharbor,Infest,Noter,Opensource, FoodspotThumb, GreenharborThumb,InfestThumb,OpensourceThumb,Coderscave,CoderscaveThumb,Prodata,ProdataThumb} from "@/assets/Projects/index.js";
+import {Foodspot,Greenharbor,Infest,Noter,Opensource, FoodspotThumb, GreenharborThumb,InfestThumb,OpensourceThumb,Coderscave,CoderscaveThumb,Prodata,ProdataThumb,ClassManagerThumb,ClassManager} from "@/assets/Projects/index.js";
 
 
 const ProjectDetails = [
@@ -16,30 +16,17 @@ const ProjectDetails = [
         technology:["Reactjs ,","TailwindCSS ,","Netlify ,","Gemini API ,"],
     },
     {
-        thumbnail:GreenharborThumb,
-        img1:Greenharbor,
-        title:"ClassManager",
-        category:"Web Development",
-        top5:true,
-        desc1:"GreenHarbor, born out of the 2024 Google Solution Challenge, is a beacon of hope for farmers worldwide. Its mission is clear: to transform traditional agricultural practices into modern, sustainable methods through the power of technology. By centralizing invaluable resources and connecting farmers with agricultural experts, GreenHarbor empowers individuals in the farming community to unlock their full potential.",
-        desc2:"Through an intuitive interface, GreenHarbor offers farmers access to cutting-edge seeds, expert advice, and comprehensive training materials. By bridging the gap between tradition and innovation, this platform not only elevates agricultural productivity but also fosters a global community of knowledge-sharing and collaboration. ",
-        smalldesc: "GreenHarbor is a web application which helps farmers for sustainanble farming!",
-        github:"https://github.com/BALASANTHOSH01/Google_Solution_Challenge_2024",
-        website:"https://greenharbor.netlify.app/",
-        technology:["Reactjs ,","TailwindCSS ,","Netlify ,","Gemini API ,"],
-    },
-    {
-        thumbnail:OpensourceThumb,
-        img1:Opensource,
-        title:"OpenHire",
-        category:"Web Development",
-        top5:true,
-        desc1:"Introducing OpenHire, an innovative open-source Resource Management System (RMS) revolutionizing the recruitment landscape. OpenHire offers a comprehensive suite of features designed to streamline the hiring process, from candidate sourcing through diverse channels to managing job postings and evaluating applicants.",
-        desc2:"OpenHire embraces modern recruitment practices by facilitating virtual interviews, enabling seamless connections between hiring managers and candidates regardless of geographical barriers. Additionally, with support for multiple site job postings, organizations can expand their reach and attract a wider pool of qualified candidates.",
-        smalldesc: "GreenHarbor is a web application which helps farmers for sustainanble farming!",
-        github:"https://github.com/BALASANTHOSH01/Next_Gen_RMS",
-        website:"https://next-gen-rms.vercel.app/",
-        technology:["ReactJS ,","TailwindCSS ,","Git ," ,"Github"],
+        thumbnail: ClassManagerThumb,
+        img1: ClassManager,
+        title: "ClassManager",
+        category: "Web Development",
+        top5: true,
+        desc1: "ClassManager is a revolutionary student management software designed to streamline the administrative tasks of educational institutions. By providing an intuitive interface for staff and institutions, ClassManager significantly reduces the time and effort required to manage student and staff records. This software is an indispensable tool for modern education, ensuring that all records are kept in the most effective way possible.",
+        desc2: "The software's main features include comprehensive attendance management and real-time push notifications, ensuring that both students and staff are always informed and up-to-date. ClassManager is continuously evolving, with ongoing enhancements to its features and functionalities aimed at making student and staff management even more efficient and user-friendly. This platform not only optimizes administrative processes but also fosters better communication and collaboration within educational institutions.",
+        smalldesc: "ClassManager is a student management software that helps institutions manage their records efficiently!",
+        github: "https://github.com/BALASANTHOSH01/Class_Manager_Client",
+        website: "https://https://classmanager.vercel.app/",
+        technology: ["Reactjs", "TailwindCSS", "Redux", "Nodejs", "Expressjs", "Mongoose", "MongoDB"]
     },
     {
         thumbnail:CoderscaveThumb,
@@ -91,6 +78,19 @@ const ProjectDetails = [
     //     website:"https://foodspot-fwd.netlify.app/",
     //     technology:["ReactJS ,","TailwindCSS"],
     // },
+    {
+        thumbnail:OpensourceThumb,
+        img1:Opensource,
+        title:"OpenHire",
+        category:"Web Development",
+        top5:true,
+        desc1:"Introducing OpenHire, an innovative open-source Resource Management System (RMS) revolutionizing the recruitment landscape. OpenHire offers a comprehensive suite of features designed to streamline the hiring process, from candidate sourcing through diverse channels to managing job postings and evaluating applicants.",
+        desc2:"OpenHire embraces modern recruitment practices by facilitating virtual interviews, enabling seamless connections between hiring managers and candidates regardless of geographical barriers. Additionally, with support for multiple site job postings, organizations can expand their reach and attract a wider pool of qualified candidates.",
+        smalldesc: "GreenHarbor is a web application which helps farmers for sustainanble farming!",
+        github:"https://github.com/BALASANTHOSH01/Next_Gen_RMS",
+        website:"https://next-gen-rms.vercel.app/",
+        technology:["ReactJS ,","TailwindCSS ,","Git ," ,"Github"],
+    },
     {
         thumbnail:ProdataThumb,
         img1:Prodata,

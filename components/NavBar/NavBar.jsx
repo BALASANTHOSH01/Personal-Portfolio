@@ -39,7 +39,8 @@ const NavBar = () => {
         onClick={() => handleActiveItem(itemsName)}
       >
         <p>{itemsName}</p>
-        {activeItem === itemsName && <hr className="h-[3px] w-[100%] border bg-jade-600"/>}
+
+        {isMobileScreen && activeItem === itemsName && <hr className="h-[3px] w-[100%] border bg-jade-600"/>}
       </Link>
     );
   };
