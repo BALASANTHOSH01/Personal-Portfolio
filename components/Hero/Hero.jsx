@@ -9,7 +9,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div id="home" className="section px-[2%] h-dvh md:h-[60vh] mx-auto">
+    <div id="home" className="section px-[2%] h-screen md:h-screen mx-auto">
       <div className="ml-[5%] mt-[3%] flex flex-col items-center  justify-center py-[2%]">
         <div className=" w-[40%] md:w-[100%] text-center bg-[var(--secondaryColor)] px-[10px] text-gray-300 py-[5px] text-lg md:text-sm rounded-[50px] relative border my-[2%]">
           {/* <WingIcon className="text-jade-500 text-[40px] absolute right-[-30px] top-[-40px]" /> */}
