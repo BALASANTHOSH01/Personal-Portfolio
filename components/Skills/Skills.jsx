@@ -22,7 +22,7 @@ const Skills = () => {
 const SkillSection = ({  skills }) => (
   <div className="my-8">
     {/* <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">{title}</h3> */}
-    <div className="grid grid-cols-4 md:gap-10  gap-16 justify-start w-[85%]  md:w-[95%] mx-auto">
+    <div className="grid grid-cols-4 md:grid-cols-2 md:gap-10  gap-16 justify-start w-[85%]  md:w-[95%] mx-auto">
       {skills.map((skill) => (
         <div key={skill.name} className="flex flex-col items-center p-4 bg-transparent  dark:bg-gray-900 rounded-lg shadow-md ">
 
