@@ -8,8 +8,8 @@ const Skills = () => {
   return (
     <div id="skills" className="container section md:mt-[5%] mx-auto px-20 md:px-3 py-6">
       <div className="text-center mb-8 ">
-        <h2 className="text-[50px] font-semibold text-gray-800 dark:text-white">My Skills</h2>
-        <p className="mt-2 mb-4 text-gray-600 dark:text-gray-400 text-[20px]">
+        <h2 className="text-[50px] font-semibold dark:text-white">My Skills</h2>
+        <p className="mt-2 mb-4  dark:text-gray-400 text-[20px]">
           Below are some of the technologies and tools I have experience with.
         </p>
       </div>
