@@ -40,7 +40,7 @@ const Contact = () => {
                 </div>
 
                 {/* Right Section */}
-                <div className="bg-[var(--secondaryColor)] w-[80%] md:w-[98%] p-8 rounded-lg space-y-6 h-[60vh] md:h-[60vh]">
+                <div className="bg-[var(--secondaryColor)] w-[80%] md:w-[98%] p-8 rounded-lg space-y-6 h-[60vh] md:h-[40vh]">
                     <h2 className="text-2xl font-bold text-white">Get In Touch!</h2>
                     <form className="space-y-4">
                         <input

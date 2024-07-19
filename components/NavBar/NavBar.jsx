@@ -35,16 +35,18 @@ const NavBar = () => {
         smooth={true}
         duration={500}
         offset={-70}
-        className={`w-[16%] rounded-[50px] px-[17px] md:px-[3%] cursor-pointer md:py-[5px] py-[10px] text-center overflow-hidden md:text-black text-white text-[17px] md:text-[20px] ${activeItem === itemsName ? 'bg-jade-600 md:text-white' : ''}`}
+        className={`w-[16%]  rounded-[50px] px-[17px]  cursor-pointer md:py-[5px] py-[10px] text-center md:text-black text-white text-[17px] md:text-[20px] ${activeItem === itemsName ? 'bg-jade-600 w-[20%] md:bg-transparent ' : ''}`}
         onClick={() => handleActiveItem(itemsName)}
       >
         <p>{itemsName}</p>
+        {activeItem === itemsName && <hr className="h-[3px] w-[100%] border bg-jade-600"/>}
       </Link>
     );
   };
 
   return (
-    <div className="flex flex-row items-center md:fixed md:bottom-5 md:left-[5%] w-[90%] mx-auto px-[12px] md:px-[0px] bg-[var(--secondaryColor)] rounded-[50px] justify-between mt-[1%] border overflow-hidden md:bg-white">
+    <div className="flex flex-row items-center md:fixed md:bottom-5 md:left-[5%] w-[90%] mx-auto px-[12px] md:px-[0px] bg-[var(--secondaryColor)] rounded-[50px] justify-between md:justify-around  mt-[1%] border overflow-hidden  md:bg-white">
+
       <NavItem itemsName="Home" to="home" />
       {!isMobileScreen && <>
         <NavItem itemsName="About" to="about" />

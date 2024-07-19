@@ -18,7 +18,7 @@ const Hero = () => {
 
         <div className=" flex flex-col items-center md:mt-[2%] justify-center">
           <div className="text-[80px] md:text-[40px] text-white text-center">
-            <div className=" flex md:flex-col md:items-center items-start gap-3 justify-center relative z-40">
+            <div className=" flex md:flex-col md:items-center items-start gap-3 justify-center z-40">
               {/* <StarIcon className="absolute z-0 text-gray-800 text-[40px] right-0"/> */}
               <p>I'm a {" "}
               <span className="text-jade-500">
