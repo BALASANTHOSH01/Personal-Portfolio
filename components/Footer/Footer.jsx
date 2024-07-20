@@ -6,7 +6,7 @@ import { MdEmail as EmailIcon } from "react-icons/md";
 const Footer = () => {
     return (
         <footer className="bg-black text-white py-10 px-10">
-            <div className="container mx-auto grid grid-cols-4 md:grid-cols-1 px-4">
+            <div className="container mx-auto grid grid-cols-3 md:grid-cols-1 px-4">
                 {/* Column 1 */}
                 <div className="flex-1">
                     <h3 className="text-2xl font-bold">BALASANTHOSH</h3>
@@ -30,14 +30,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Column 3 */}
-                <div className="flex-1">
-                    <h3 className="text-xl font-bold mb-4 md:underline">Link</h3>
-                    <ul className="space-y-2">
-                        <li>Privacy Policy</li>
-                        <li>Terms of Use</li>
-                    </ul>
-                </div>
 
                 {/* Column 4 */}
                 <div className="flex-1 md:my-[6%]">
