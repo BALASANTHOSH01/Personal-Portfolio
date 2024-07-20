@@ -9,9 +9,9 @@ import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <div id="home" className="section px-[2%] mx-auto">
+    <div id="home" className="section px-[2%] md:py-20 md:p-2 mx-auto">
       <div className="ml-[5%] mt-[3%] flex flex-col items-center  justify-center py-[2%] md:mt-[7%]">
-        <div className=" w-[40%] md:w-[100%] text-center md:text-center bg-gradient-to-r from-amber-50 to-amber-100 text-black dark:bg-[var(--secondaryColor)] px-[10px] text-gray-300 py-[5px] text-lg md:text-sm rounded-[50px] border my-[2%]">
+        <div className=" w-[40%] md:w-[100%] text-center md:text-center bg-gradient-to-r from-amber-50 to-amber-100 text-black dark:bg-[var(--secondaryColor)] px-[10px] py-[5px] text-lg md:text-sm rounded-[50px] border my-[2%]">
           {/* <WingIcon className="text-jade-500 text-[40px] absolute right-[-30px] top-[-40px]" /> */}
           <p>Hello, I'm <span className=" font-bold">Bala Santhosh</span>, a Software Engineer</p>
         </div>
