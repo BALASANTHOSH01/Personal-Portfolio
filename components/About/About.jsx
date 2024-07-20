@@ -39,7 +39,7 @@ const AboutSection = () => {
           </div>
 
         </div>
-        <div className="lg:w-1/2 flex justify-center md:hidden">
+        <div className="lg:w-1/2 flex justify-center">
           <Image src={BSImage} alt="Bala Santhosh" width={400} height={400} className="rounded-xl shadow-lg" />
         </div>
       </div>
