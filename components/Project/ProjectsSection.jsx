@@ -14,7 +14,7 @@ const ProjectsSection = () => {
           <WingIcon className="text-jade-500 text-[40px] absolute right-[-30px] top-[-40px]" />
           <p>My Projects</p>
         </div> */}
-        <h2 className="text-[50px]  font-bold text-white text-center mb-4">Projects</h2>
+        <h2 className="text-[50px]  font-bold text-center mb-4">Projects</h2>
 
         {/* <h2 className="text-4xl font-bold mb-8 text-center">My Projects</h2> */}
         <div className="grid grid-cols-3 md:grid-cols-1 gap-16  py-16">

@@ -16,7 +16,7 @@ const ProjectCard = ({
   technology,
 }) => {
   return (
-    <Tilt className=" bg-transparent border border-slate-500 mx-auto flex flex-row items-start justify-between p-3 px-[5%] rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <Tilt className=" bg-transparent border border-slate-200 dark:border-slate-500 mx-auto flex flex-row items-start justify-between p-3 px-[5%] rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
       <div>
         <Link href={`/Projects/${name}`} >
           <Image
@@ -24,9 +24,9 @@ const ProjectCard = ({
             alt={title}
             width={100}
             height={100}
-            className="rounded-xl"
+            className="rounded-xl shadow-md"
           />
-          <h3 className="text-2xl font-bold my-2 text-[#ffff]">
+          <h3 className="text-2xl font-bold my-2">
             {title}
           </h3>
           <p className=" text-sm text-slate-400">{smalldesc}</p>

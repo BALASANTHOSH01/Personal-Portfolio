@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { Jost } from "next/font/google";
 import MobileNav from "./MobileNav";
+import ThemeSwitch from "../ThemeSwitch/ThemeButton";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -36,7 +37,7 @@ const NavBar = () => {
           href={externalLink}
           target="_blank"
           rel="noopener noreferrer"
-          className={`w-[16%] rounded-[50px] px-[17px] cursor-pointer md:py-[5px] py-[10px] text-center md:text-black text-white text-[17px] md:text-[20px] ${activeItem === itemsName ? 'bg-jade-600 w-[20%] md:bg-transparent' : ''}`}
+          className={`w-[16%] rounded-[50px] px-[17px] cursor-pointer md:py-[5px] py-[10px] text-center md:text-black dark:text-white text-[17px] md:text-[20px] ${activeItem === itemsName ? 'bg-jade-600 w-[20%] md:bg-transparent' : ''}`}
           onClick={() => handleActiveItem(itemsName)}
         >
           <p>{itemsName}</p>
@@ -50,7 +51,7 @@ const NavBar = () => {
         smooth={true}
         duration={500}
         offset={-70}
-        className={`w-[16%] rounded-[50px] px-[17px] cursor-pointer md:py-[5px] py-[10px] text-center md:text-black text-white text-[17px] md:text-[20px] ${activeItem === itemsName ? 'bg-jade-600 w-[20%] md:bg-transparent' : ''}`}
+        className={`w-[16%] rounded-[50px] px-[17px] cursor-pointer md:py-[5px] py-[10px] text-center md:text-black text-[17px] dark:text-white md:text-[20px] ${activeItem === itemsName ? 'bg-jade-600 w-[20%] md:bg-transparent' : ''}`}
         onClick={() => handleActiveItem(itemsName)}
       >
         <p>{itemsName}</p>
@@ -60,7 +61,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex flex-row items-center md:fixed md:bottom-5 md:left-[5%] w-[90%] mx-auto px-[12px] md:px-[0px] bg-[var(--secondaryColor)] rounded-[50px] justify-between md:justify-around mt-[1%] border overflow-hidden md:bg-white">
+    <div className="flex flex-row items-center md:fixed md:bottom-5 md:left-[5%] w-[90%] mx-auto px-[12px] md:px-[0px] bg-[#f3f3f3] text-[var(--secondaryColor)] dark:bg-[var(--secondaryColor)] rounded-[50px] justify-between md:justify-around mt-[1%] border overflow-hidden md:bg-white">
       {!isMobileScreen && <>
         <NavItem itemsName="Home" to="home" />
         <NavItem itemsName="About" to="about" />
@@ -75,6 +76,8 @@ const NavBar = () => {
         <NavItem itemsName="Resume" externalLink="https://drive.google.com/file/d/14EDTqJ5ZTYlb66K9Crup_tGkka_xxw7F/view?usp=drive_link" />
       </>}
       {isMobileScreen && <MobileNav />}
+      <div>
+      </div>
     </div>
   );
 };

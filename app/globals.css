@@ -4,6 +4,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
+
+@layer base {
+  body{
+    @apply dark:bg-[#0e0e0e] bg-[#ffff];
+  }
+}
+
 :root {
   --secondaryColor: #171718;
   --thirdColor: #0e0e0e;
