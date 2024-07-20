@@ -27,7 +27,7 @@ const SkillSection = ({  skills }) => (
         <div key={skill.name} className="flex flex-col items-center p-4 bg-transparent  dark:bg-gray-900 rounded-lg shadow-md ">
 
           <Image src={skill.image} alt={skill.name} width={70} height={70} />
-          
+         
         </div>
       ))}
     </div>

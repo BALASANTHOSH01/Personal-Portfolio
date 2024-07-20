@@ -17,12 +17,14 @@ import HTML from "./HTML5-Logo.png";
 import CSS from "./CSS-logo.png";
 import Figma from './Figma-logo.png';
 import Nextjs from "./Next.js.png";
+import Nextjslight from "./NextjsLight.png"
 import Java from "./Java.png";
 import Postgresql from "./postgress.png";
 import JUnit from "./JUnit.png";
 
 export {
   Postgresql,
+  Nextjslight,
   JUnit,
   Nextjs,
   Java,
