@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div id="home" className="section px-[2%] mx-auto">
       <div className="ml-[5%] mt-[3%] flex flex-col items-center  justify-center py-[2%] md:mt-[7%]">
-        <div className=" w-[40%] md:w-[100%] text-center md:text-start bg-[var(--secondaryColor)] px-[10px] text-gray-300 py-[5px] text-lg md:text-sm rounded-[50px] relative border my-[2%]">
+        <div className=" w-[40%] md:w-[100%] text-center md:text-center  bg-[var(--secondaryColor)] px-[10px] text-gray-300 py-[5px] text-lg md:text-sm rounded-[50px] relative border my-[2%]">
           {/* <WingIcon className="text-jade-500 text-[40px] absolute right-[-30px] top-[-40px]" /> */}
           <p>Hello, I'm Bala Santhosh, a Software Engineer</p>
         </div>
