@@ -36,12 +36,12 @@ const ProjectProfile = () => {
       </Link>
 
       {/**Project Title */}
-      <div className=" mt-[5%] md:mt-[12%] flex flex-row items-center gap-2">
+      <div className=" mt-[5%] md:mt-[18%] flex flex-row items-center gap-2">
         <a
           href={project.website}
           target="_blank"
           rel="noreferrer"
-          className=" text-[50px] text-white font-bold hover:underline"
+          className=" text-[50px] dark:text-white text-black font-bold hover:underline"
         >
           {project.title}
         </a>
@@ -49,7 +49,7 @@ const ProjectProfile = () => {
       </div>
 
       {/**Scrum Master */}
-      <div className="my-[1%] mt-[5%] md:my-[4%] md:mt-[7%] flex flex-row items-center text-gray-400 gap-2 font-semibold">
+      <div className="my-[1%] mt-[5%] md:my-[4%]  md:mt-[7%] flex flex-row items-center dark:text-gray-400 text-black gap-2 font-semibold">
         <p>Home</p>
         <ScrumIcon />
         <p>Projects</p>
@@ -57,16 +57,16 @@ const ProjectProfile = () => {
         <p className="text-white">{project.title}</p>
       </div>
 
-      <div className="flex flex-row md:flex-col gap-[10%] md:gap-[2%] items-start text-gray-400 w-[80%] md:w-[97%] my-[3%] font-semibold">
+      <div className="flex flex-row md:flex-col gap-[10%] md:gap-[2%] items-start dark:text-gray-400 text-gray-500 w-[80%] md:w-[97%] my-[3%] font-semibold">
         {/**Description */}
-        <div className=" md:my-[5%]">
+        <div className=" md:my-[5%] ">
           <p className=" text-lg">{project.desc1}</p>
           <p className=" text-lg mt-[2%] md:mt-[3%]">{project.desc2}</p>
         </div>
 
         {/** Technology */}
         <div className=" md:mt-[6%]">
-          <p className=" text-[23px] text-white">Technologies</p>
+          <p className=" text-[23px] dark:text-white text-black">Technologies</p>
           <hr className=" my-[1%] md:w-[40%]" />
 
           <div className=" flex flex-col md:flex-row items-center gap-2 my-[3%] mt-[6%]">
@@ -77,12 +77,12 @@ const ProjectProfile = () => {
         </div>
       </div>
 
-      <div className=" flex flex-row gap-10 md:items-start items-center justify-start md:mt-[6%]">
+      <div className=" flex flex-row gap-10 md:items-start items-center justify-start md:mt-[6%] text-gray-500">
         <a
           href={project.github}
           target="_blank"
           rel="noopener noreferrer"
-          className=" hover:text-gray-800 text-white flex flex-row items-center gap-2 text-xl "
+          className=" hover:text-gray-800 dark:text-white flex flex-row items-center gap-2 text-xl "
         >
           <GithubIcon className="text-3xl " />
           <p>Github</p>
@@ -93,7 +93,7 @@ const ProjectProfile = () => {
           href={project.website}
           target="_blank"
           rel="noopener noreferrer"
-          className=" hover:text-gray-800 text-white flex flex-row items-center gap-2 text-xl "
+          className=" hover:text-gray-800 dark:text-white flex flex-row items-center gap-2 text-xl "
         >
           <WebsiteIcon className="text-3xl "/>
           <p>{project.title}</p>
