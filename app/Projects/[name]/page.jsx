@@ -65,11 +65,11 @@ const ProjectProfile = () => {
         </div>
 
         {/** Technology */}
-        <div className=" md:mt-[6%] overflow-hidden">
+        <div className=" md:mt-[6%] ">
           <p className=" text-[23px] dark:text-white text-black">Technologies</p>
           <hr className=" my-[1%] md:w-[40%]" />
 
-          <div className=" flex flex-col md:flex-wrap items-center gap-2 my-[3%] mt-[6%] md:w-[90%]">
+          <div className=" flex flex-col md:flex-wrap items-center gap-2 my-[3%] mt-[6%]">
             {project.technology.map((technology) => (
               <p key={technology}>{technology},</p>
             ))}
