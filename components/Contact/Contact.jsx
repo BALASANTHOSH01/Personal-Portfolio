@@ -4,37 +4,37 @@ import React, { useState } from "react";
 import { FaInstagram, FaLinkedin, FaTelegramPlane, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
-    const [email, setEmail] = useState('');
-    const [phone, setPhone] = useState('');
-    const [address, setAddress] = useState('');
-    const [message, setMessage] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [phone, setPhone] = useState('');
+    // const [address, setAddress] = useState('');
+    // const [message, setMessage] = useState('');
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
 
-        const res = await fetch('/api/sendEmail', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ email, phone, address }),
-        });
+    //     const res = await fetch('/api/sendEmail', {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/json',
+    //         },
+    //         body: JSON.stringify({ email, phone, address }),
+    //     });
 
-        const data = await res.json();
+    //     const data = await res.json();
 
-        if (res.status === 200) {
-            setMessage('Email sent successfully');
-            setEmail('');
-            setPhone('');
-            setAddress('');
-        } else {
-            setMessage('Error sending email');
-        }
-    };
+    //     if (res.status === 200) {
+    //         setMessage('Email sent successfully');
+    //         setEmail('');
+    //         setPhone('');
+    //         setAddress('');
+    //     } else {
+    //         setMessage('Error sending email');
+    //     }
+    // };
 
     return (
         <div id="contact" className="section min-h-screen flex items-center justify-center py-12 md:py-6 px-4 sm:px-6 lg:px-8 md:mb-[7%]">
-            <div className="max-w-7xl w-full grid grid-cols-2 md:grid-cols-1 gap-10">
+            <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-1 gap-10">
                 {/* Left Section */}
                 <div className=" space-y-6">
                     <h2 className="text-[50px] font-bold text-start mb-4">Contact Me</h2>
@@ -65,7 +65,8 @@ const Contact = () => {
                 </div>
 
                 {/* Right Section */}
-                <div className=" bg-[#f2f2f2] dark:bg-[var(--secondaryColor)] w-[80%] md:w-[98%] p-8 rounded-lg space-y-6 h-[60vh] md:h-[40vh]">
+
+                {/* <div className=" bg-[#f2f2f2] dark:bg-[var(--secondaryColor)] w-[80%] md:w-[98%] p-8 rounded-lg space-y-6 h-[60vh] md:h-[40vh]">
                     <h2 className="text-2xl font-bold ">Get In Touch!</h2>
                     <form className="space-y-4" onSubmit={handleSubmit}>
                         <input
@@ -100,7 +101,8 @@ const Contact = () => {
                         </button>
                     </form>
                     {message && <p className="text-white">{message}</p>}
-                </div>
+                </div> */}
+
             </div>
         </div>
     );
