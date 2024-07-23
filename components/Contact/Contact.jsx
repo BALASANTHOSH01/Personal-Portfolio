@@ -4,33 +4,6 @@ import React, { useState } from "react";
 import { FaInstagram, FaLinkedin, FaTelegramPlane, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
-    // const [email, setEmail] = useState('');
-    // const [phone, setPhone] = useState('');
-    // const [address, setAddress] = useState('');
-    // const [message, setMessage] = useState('');
-
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault();
-
-    //     const res = await fetch('/api/sendEmail', {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //         },
-    //         body: JSON.stringify({ email, phone, address }),
-    //     });
-
-    //     const data = await res.json();
-
-    //     if (res.status === 200) {
-    //         setMessage('Email sent successfully');
-    //         setEmail('');
-    //         setPhone('');
-    //         setAddress('');
-    //     } else {
-    //         setMessage('Error sending email');
-    //     }
-    // };
 
     return (
         <div id="contact" className="section min-h-screen flex items-center justify-center py-12 md:py-6 px-4 sm:px-6 lg:px-8 md:mb-[7%]">
@@ -63,45 +36,6 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Right Section */}
-
-                {/* <div className=" bg-[#f2f2f2] dark:bg-[var(--secondaryColor)] w-[80%] md:w-[98%] p-8 rounded-lg space-y-6 h-[60vh] md:h-[40vh]">
-                    <h2 className="text-2xl font-bold ">Get In Touch!</h2>
-                    <form className="space-y-4" onSubmit={handleSubmit}>
-                        <input
-                            type="email"
-                            placeholder="Enter Your Email"
-                            className="w-full px-4 py-2 border-b-2 border-gray-700 rounded-lg bg-transparent  outline-none"
-                            required
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                        />
-                        <input
-                            type="text"
-                            placeholder="Enter Your Phone"
-                            className="w-full px-4 py-2 border-b-2 border-gray-700 rounded-lg bg-transparent  outline-none"
-                            required
-                            value={phone}
-                            onChange={(e) => setPhone(e.target.value)}
-                        />
-                        <input
-                            type="text"
-                            placeholder="Enter Your Address"
-                            className="w-full px-4 py-2 border-b-2 border-gray-700 rounded-lg bg-transparent text-white outline-none"
-                            required
-                            value={address}
-                            onChange={(e) => setAddress(e.target.value)}
-                        />
-                        <button
-                            type="submit"
-                            className="w-full my-[2%] py-2 px-4 bg-jade-500 text-white rounded-lg hover:bg-jade-600"
-                        >
-                            Send Message
-                        </button>
-                    </form>
-                    {message && <p className="text-white">{message}</p>}
-                </div> */}
 
             </div>
         </div>
